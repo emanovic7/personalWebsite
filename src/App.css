@@ -21,6 +21,13 @@
   color: #09d3ac;
 }
 
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px;
+}
+
 
 .homeImage {
   height: 150px;
@@ -34,7 +41,7 @@ ul {
 
 ul li {
   padding-left: 2rem;
-  
+
   background-position: 0 0;
   background-size: 1.6rem 1.6rem;
   background-repeat: no-repeat;

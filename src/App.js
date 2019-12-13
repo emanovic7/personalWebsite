@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 //Components
 import NavBar from './components/navBar';
@@ -12,18 +15,23 @@ import Articles from './components/articles'
 function App() {
   return (
     <div className="App">
-      <div>
-        <About />
-      </div>
-      <div>
-        <Projects />
-      </div>
-      <div>
-        <Experience />
-      </div>
-      <div>
-        <Articles />
-      </div>
+
+      <Container>
+        <Row>
+          <About />
+        </Row>
+        <Row>
+          <Experience />
+        </Row>
+        <Row>
+          <Projects />
+        </Row>
+        <Row>
+          <Col><Contact /></Col>
+          <Col><Articles/></Col>
+        </Row>
+      </Container>
+
     </div>
   );
 }
