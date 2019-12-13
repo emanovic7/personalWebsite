@@ -11,7 +11,7 @@ import Contact from './components/contact';
 function App() {
   return (
     <div className="App">
-      <NavBar />
+    
       <About />
       <Projects />
       <Experience />
