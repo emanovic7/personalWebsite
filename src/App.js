@@ -7,15 +7,23 @@ import About from './components/about';
 import Projects from './components/projects';
 import Experience from './components/experience';
 import Contact from './components/contact';
+import Articles from './components/articles'
 
 function App() {
   return (
     <div className="App">
-    
-      <About />
-      <Projects />
-      <Experience />
-      <Contact />
+      <div>
+        <About />
+      </div>
+      <div>
+        <Projects />
+      </div>
+      <div>
+        <Experience />
+      </div>
+      <div>
+        <Articles />
+      </div>
     </div>
   );
 }
